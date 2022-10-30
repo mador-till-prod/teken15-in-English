@@ -207,7 +207,7 @@
     position: absolute;
     bottom: 2vh;
     width: 28vw;
-    left: 5vh;
+    right: 5vh;
 }
 
 .multiple {
@@ -237,11 +237,10 @@
 .testArrows {
     position: absolute;
     bottom: 2vh;
-    right: 2vw;
+    left: 2vw;
     width: 27vw;
     display: flex;
     justify-content: flex-start;
-    direction: rtl;
 }
 
 /* פופ אף מבחן */
