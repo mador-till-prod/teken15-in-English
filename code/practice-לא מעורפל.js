@@ -2149,6 +2149,7 @@ const reviewTest = (event) => {
     document.querySelector(`.topButton`).classList.add("hidden");
     // משנה כפתור הגש לסיום
     document.querySelector('.examSubmit').setAttribute("src", "../assets/images/grapics/test/test-review-end-button.svg");
+    document.querySelector('.examSubmit').classList.add("blue");
     strcurrentPage = "reviewTest";
     currentTestQuestion = 0;
     startExam();

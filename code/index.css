@@ -24,7 +24,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    direction: rtl;
+    direction: ltr;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -275,11 +275,11 @@ html, body {
     height: 32vw;
     position: relative;
     top: -1vh;
-    left: 5vw;
+    left: -5vw;
 }
 
 .picLeft{
-    left: -5vw;
+    left: 6vw;
 }
 
 .homePageButtonsScroll {
@@ -313,7 +313,7 @@ html, body {
 .pic {
     height: 19vh;
     position: absolute;
-    left: 5vw;
+    right: 5vw;
 }
 
 .idNextToPic {
@@ -322,9 +322,10 @@ html, body {
 
 /* מדפים של תרופות */
 .downButton {
-    width: 10vw;
+    width: 8vw;
     position: absolute;
-    left: 2vw;
+    right: 2vw;
+    top: 1vh;
 }
 
 .shelfs {
@@ -344,7 +345,7 @@ html, body {
     top: 2vh;
     font-weight: 500;
     font-size: 1.2em;
-    padding-right: 1em;
+    padding-left: 1em;
 }
 
 .shelfsdropDown {

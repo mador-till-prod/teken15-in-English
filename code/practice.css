@@ -13,6 +13,7 @@
     width: 38vw;
     position: absolute;
     top: 12vh;
+    right: 0;
 }
 
 .practiceQuestionBobble {
@@ -99,6 +100,7 @@
     width: 37vw;
     position: absolute;
     top: 35vh;
+    right: 0;
 }
 
 .beforeExamBobble {
@@ -239,6 +241,7 @@
     width: 27vw;
     display: flex;
     justify-content: flex-start;
+    direction: rtl;
 }
 
 /* פופ אף מבחן */
@@ -295,6 +298,7 @@
     width: 50vw;
     padding-left: 2em;
     padding-top: 1em;
+    direction: rtl;
 }
 
 .rightAnswersConteiner {
@@ -303,6 +307,7 @@
     width: 46vh;
     border-radius: 1em;
     padding-top: 1em;
+    direction: rtl;
 }
 
 .timerConteiner {
@@ -312,6 +317,7 @@
     width: 54vh;
     height: 8vh;
     padding-top: 1em;
+    direction: rtl;
 }
 
 .afterExamData {
